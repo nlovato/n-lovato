@@ -1,2 +1,1 @@
-# n-lovato
-PWP
+Creating a website for a friend.
