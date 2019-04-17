@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<title><hr /> Purpose, Audience & Goal</title>
+		<title>Purpose, Audience & Goal</title>
 	</head>
 
 	<body>
@@ -27,8 +27,11 @@
 				or collaboration opportunities. This contact will be initiated through the contact form.
 				The secondary goal of this site is to showcase my work and to present a suitable online presence.</p></center>
 
+		<br><hr />
+		<br>
+		<br>
 
-		<img src="../michelle-hicks.jpg" alt="Michelle Hicks">
+		<img src="michelle-hicks.jpg" width= "250px" alt="Michelle Hicks">
 
 		<ul>
 			<li><b>Name:</b> Michelle Hicks</li>
