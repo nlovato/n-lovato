@@ -9,8 +9,8 @@
 		<center><h1><ins>Rainbow Snow</ins></h1></center>
 		<br>
 		<br>
+		<h4><ins>Welcome Section:</ins></h4>
 		<p>
-			<ins>Welcome Section:</ins>
 			For my <em>Welcome Section</em> of my site will have link bar with the logo
 			at the top along with drop down menu icon. The link bar will be labeled as
 			follows: home, about us, shaved ice flavors, future events, locations and a
@@ -19,8 +19,7 @@
 		</p>
 
 	<br><hr />
-		<p>
-	<ins>About Us:</ins>
+	<h4><ins>About Us:</ins></h4>
 		The <em>About Us</em> section will tell a story and will have a videoplayer linked
 		to it as well.
 	</p>
