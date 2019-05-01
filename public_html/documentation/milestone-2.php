@@ -36,7 +36,7 @@
 		<p>
 			This section will list and display images of locations or establishment images of
 			upcoming events. Below each image will describe event reason, location, business name/
-			sponsor name if applicable. There will also be a link to <em>Book an Event</em>.
+			sponsor name (if applicable). There will also be a link to <em>Book an Event</em>.
 		</p>
 
 		<br><hr />
@@ -53,5 +53,7 @@
 			an image with a thank you message. Below will be links to facebook, email, yelp and instagram
 			profiles.
 		</p>
+
+		<img src="wireframesPWP.jpg alt="Wireframes">
 
 	</body>
