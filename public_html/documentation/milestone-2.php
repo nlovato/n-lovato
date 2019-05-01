@@ -40,5 +40,19 @@
 			sponsor name if applicable. There will also be a link to <em>Book an Event</em>.
 		</p>
 
+		<br><hr />
+		<p>
+			<ins>Locations:</ins>
+			The <em>Locations</em> section will feature a google map pinning both <em>Rainbow Snow</em>
+			establishments along with images and address below location images.
+		</p>
+
+		<br><hr />
+		<p>
+			<ins>Contact Us:</ins>
+			The <em>Contact Us</em> section will feature name, emal and message field. There will be
+			an image with a thank you message. Below will be links to facebook, email, yelp and instagram
+			profiles.
+		</p>
 
 	</body>
