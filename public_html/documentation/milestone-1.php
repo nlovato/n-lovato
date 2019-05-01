@@ -31,7 +31,7 @@
 		<br>
 		<br>
 
-		<img src="michelle-hicks.jpg" width= "300px" alt="Michelle Hicks">
+		<img src="michelle-hicks.jpg" width= "350px" alt="Michelle Hicks">
 
 		<ul>
 			<li><b>Name:</b> Michelle Hicks</li>
