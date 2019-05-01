@@ -19,9 +19,26 @@
 		</p>
 
 	<br><hr />
-
-	<p>
-
+		<p>
+	<ins>About Us:</ins>
+		The <em>About Us</em> section will tell a story and will have a videoplayer linked
+		to it as well.
 	</p>
+
+		<br><hr />
+		<p>
+			<ins>Shaved Ice Flavors:</ins>
+			This section will display images of shaved ice and patrons eating shaved ice. This
+			section will also feature a list with a scrollbar.
+		</p>
+
+		<br><hr />
+		<p>
+			<ins>Future Events:</ins>
+			This section will list and display images of locations or establishment images of
+			upcoming events. Below each image will describe event reason, location, business name/
+			sponsor name if applicable. There will also be a link to <em>Book an Event</em>.
+		</p>
+
 
 	</body>
