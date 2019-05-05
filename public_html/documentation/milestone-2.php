@@ -53,7 +53,10 @@
 			an image with a thank you message. Below will be links to facebook, email, yelp and instagram
 			profiles.
 		</p>
+		<br>
+		<br>
+		<br>
 
-		<img src="wireframesPWP.jpg alt="Wireframes">
+		<center><img src="wireframesPWP.jpg" width="650px" alt="Wireframes"></center>
 
 	</body>

@@ -11,14 +11,14 @@
 		<center><h1><ins>Purpose:</ins></h1></center>
 
 		<center><p>
-			The purpose of this project is to professionally demonstrate my development skills
+			The purpose of this project is to professionally demonstrate my web development skills
 				and display the websites that I have created.
 			</p></center>
 
 		<center><h1><ins>Audience:</ins></h1></center>
 
-		<center><p>This site will be targeting profesional individuals within web development
-				and the IT communtiy, business owners, hiring managers, recruiters and fellow web
+		<center><p>This site will be targeting professional individuals within web development
+				and the IT community, business owners, hiring managers, recruiters and fellow web
 				developers.</p></center>
 
 		<center><h1><ins>Goal:</ins></h1></center>
@@ -53,6 +53,7 @@
 				<em>Rainbow Snow</em> to be the #1 shaved ice in Santa Fe, NM.</li>
 			<li><b>User Story:</b> As a user, I want to be able to bring family, friends and the community together by serving shaved ice.</li>
 
+			<h5><a href="directory.php">Back to Directory</a</h5>
 
 	</body>
 </html>
