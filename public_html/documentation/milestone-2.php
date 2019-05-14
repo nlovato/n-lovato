@@ -59,4 +59,6 @@
 
 		<center><img src="wireframesPWP.jpg" width="650px" alt="Wireframes"></center>
 
+		<h5><a href="directory.php">Back to Directory</a</h5>
+
 	</body>
