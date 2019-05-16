@@ -18,6 +18,18 @@
     <!--CSS Link-->
     <link rel="stylesheet" href="../css/style.css" type="text/css"/>
 
+    <!-- jQuery Form, Additional Methods, Validate -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+    <!-- Your JavaScript Form Validator -->
+    <script src="js/form-validate.js"></script>
+
+    <!-- Google reCAPTCHA -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+
   </head>
   <body>
   <!--CSS Gradient Background-->
@@ -111,9 +123,9 @@
 </div>
 </div>
 
-<video controls>
+<center><video controls>
 <source src="blahVid.mp4" type="video/4">
-</video>
+</video></center>
 </section>
 
 <br>
@@ -147,7 +159,7 @@
 	<div class="container my-4">
    	<div class="row">
    	<div class="col-sm-6 col-lg-3">
-   	<img class="img-fluid mx-auto d-block my-3 rounded-circle" src="
+   	<img class="img-fluid mx-auto d-block my-3" src="
    	rainbowSnowEvent1.jpg" alt="Mad Rainbow Snow Event 1">
    	<div class="card">
         <div class="card-body">
@@ -158,7 +170,7 @@
       </div>
       </div>
        <div class="col-sm-6 col-lg-3">
-          	<img class="img-fluid mx-auto d-block my-3 rounded-circle" src="bootstrap2.jpg" alt="Mad Hatter2">
+          	<img class="img-fluid mx-auto d-block my-3" src="bootstrap2.jpg" alt="Mad Hatter2">
           	<div class="card">
                <div class="card-body">
                <h5 class="card-title">Mad Hatter's Tea Party</h5>
@@ -175,6 +187,20 @@
 
 <br>
 <!--Contact Us Form-->
+<section>
+<div class="container">
+<h1>Contact Us</h1>
+<form> id="contact-form" method="post" action="../php/mailer.php</form>
+<div class="form-group">
+<label for="name">Full Name</label>
+<div class="input-group">
+<div class="input-group-prepend">
+<span class="input-group-text"><i class="fa fa-user"></i></span>
+</div>
+</div>
+</div>
+</div>
+</section>
 
 </div>
 </body>
