@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "53b583803cc23ddf50d222eaf7cf5473",
+    "content-hash": "93e0012b057c03680cb36d13fa5fc43e",
     "packages": [
         {
             "name": "google/recaptcha",
@@ -166,7 +166,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "sendgrid/sendgrid": 0
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
