@@ -33,6 +33,10 @@
     <!-- Google reCAPTCHA -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
+    <!-- AOS Library-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
   </head>
   <body>
@@ -78,21 +82,22 @@
   <h1 class="display-2">Rainbow Snow</h1>
 </div>
 </div>
+</section>
 
 
 <!--Image Carousel-fade-->
-
-<div class="container py-3">
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+<section>
+<div class="container-fluid py-3">
+<div id="carouselExampleFade" class="carousel slide carousel-fade justify-content-center" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <center><img src="documentation/rainbow1.jpg" class="d-block w-30" alt="Rainbow 1"></center>
+      <center><img src="documentation/rainbow1.jpg" height="500" width="500" alt="Rainbow 1"></center>
     </div>
     <div class="carousel-item">
-      <center><img src="documentation/rainbow2.jpg" class="d-block w-45" alt="Rainbow 2"></center>
+      <center><img src="documentation/rainbow2.jpg" height="500" width="500" alt="Rainbow 2"></center>
     </div>
     <div class="carousel-item">
-      <center><img src="documentation/rainbow3.jpg" class="d-block w-50" alt="Rainbow 3"></center>
+      <center><img src="documentation/rainbow3.jpg"height="500" width="500" alt="Rainbow 3"></center>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -126,10 +131,10 @@
   </div>
 </div>
 </div>
-
-<center><video controls>
-<source src="blahVid.mp4" type="video/4">
-</video></center>
+<section>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/9kgFlY54Q6Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 </section>
 
 <br>
@@ -236,7 +241,14 @@
 </form>
 </div>
 </section>
-
+</section>
 </div>
+
+
+<!--AOS Initialize-->
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>

@@ -1,3 +1,4 @@
+/*Create gradient background*/
 html, body {
 	margin:0;
 }
@@ -12,5 +13,10 @@ html, body {
 @keyframes gradient {
 	0% {background-position: 0%}
 	100% {background-position: 100%}
+}
 
+
+#youtube {
+align-content: center;
+	padding-block: 100px;
 }
