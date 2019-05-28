@@ -26,3 +26,9 @@ html, body {
 	position: center;
 	padding: 100px 100px 100px 100px;
 }
+
+#contact {
+	margin-top: 10px;
+	margin-bottom: 50px;
+	padding: 100px 100px 100px 100px;
+}
