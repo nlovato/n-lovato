@@ -22,7 +22,9 @@ html, body {
 }
 
 #jumbotron {
-	text-align: center;
+	position: center;
+	padding: 50px;
+	font-weight: bold;
 }
 
 #carouselExampleFade {
