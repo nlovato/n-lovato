@@ -21,10 +21,20 @@ html, body {
 	}
 }
 
+h1 {
+	text-decoration: underline;
+}
+
 #jumbotron {
 	position: center;
 	padding: 50px;
-	font-weight: bold;
+}
+
+#break {
+	height: 20px;
+	position: relative;
+	width: 100%;
+	background: radial-gradient(ellipse farthest-side at top center, #24AADB, #f0027f, #75489f, transparent)
 }
 
 #carouselExampleFade {
