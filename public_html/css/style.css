@@ -21,6 +21,29 @@ html, body {
 	}
 }
 
+#backToTop {
+	width: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	z-index: 999;
+	display: none;
+	cursor: pointer;
+	opacity: 0.2;
+	position: fixed;
+	bottom: 50px;
+	right: 0;
+	color: #555;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	padding-right: 1rem;
+}
+
+#backToTop:hover {
+	color: #4286f4;
+	opacity: 0.5;
+}
+
 h2 {
 	position: center;
 	text-decoration: underline;
@@ -28,7 +51,6 @@ h2 {
 
 #jumbotron {
 	position: center;
-	padding: 50px;
 }
 
 #break {
@@ -42,37 +64,31 @@ h2 {
 	text-align: center;
 	margin: auto;
 	width: 50%;
-	padding: 80px;
 }
 
 #aboutUs {
 	margin-top: 5%;
-	padding: 80px 80px 80px 80px;
 }
 
 #youtube {
 	position: center;
-	padding: 50px 200px 50px 200px;
 }
 
 #flavors {
-	margin-top: 10%;
+	margin-top: 5%;
 	width: 50%;
-	padding: 80px;
 }
 
 #events {
-	margin: auto;
+	margin-top: 5%;
 	width: 50%;
-	padding: 80px;
 }
 
 #location {
-	margin-top: 10%;
+	margin-top: 5%;
 }
 
 #contact {
 	margin-top: 10px;
 	margin-bottom: 50px;
-	padding: 100px 100px 100px 100px;
 }
