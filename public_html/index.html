@@ -53,22 +53,22 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#aboutUs">About Us</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Shaved Ice Flavors</a>
+          <a class="nav-link" href="#flavors">Shaved Ice Flavors</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Future Events</a>
+          <a class="nav-link" href="#events">Future Events</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Locations</a>
+          <a class="nav-link" href="#location">Locations</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="#contact">Contact Us</a>
         </li>
       </ul>
     </div>
@@ -77,10 +77,11 @@
 
 <!--Jumbotron-->
   <section>
-  <div class="col-lg-offset-4">
+  <div id="home" class="col-lg-offset-4">
   <div class="container py-2 d-flex justify-content-center">
-  <div id="jumbotron" class="jumbotron p-3 mb-2 bg-transparent text-light .bg-transparent"></div>
-  <h1 class="display-1">Rainbow Snow Santa Fe</h1>
+  <div id="jumbotron" class="jumbotron p-3 mb-2 bg-transparent text-body .bg-transparent">
+  <h2 class="display-1">Rainbow Snow Santa Fe</h2>
+</div>
 </div>
 </div>
 </section>
@@ -144,8 +145,8 @@
 
 <!--About Us and vid-->
 <section>
-<div class="container py-2">
-<div id="about" class="jumbotron p-3 mb-2 bg-transparent text-dark .bg-transparent">
+<div id="aboutUs" class="container py-2">
+<div class="jumbotron p-3 mb-2 bg-transparent text-dark .bg-transparent">
   <div class="container">
     <h1 class="display-4">About Us</h1>
     <p class="lead">Michelle and Jerry Hicks started Rainbow Snow Santa Fe for their three daughters as a summer hobby.  Rainbow Snow has been around for      35+ years and as a young girl Michelle knew one day she would own it!  When Michelle and Jerry took the business over they completely rejuvenated        the units and the product itself.  From a new interior along with painting of the exterior to getting new machines and changing the flavors along        with adding ice cream and many other toppings!  Along the way Rainbow Snow has been very successful for the 5 years they have owned it and it has        now become apart of their family.  They now have 2 units along with a mobile van for special events!  Rainbow Snow continues to grow and they will       potentially get a permanent location. We want to be the Shaved Ice that everyone talks about, that people are excited to come to Santa Fe for.</p>
@@ -163,8 +164,8 @@
 
 <!--Shaved Ice Flavors and list-->
 <section>
-<div class="container py-2 d-flex justify-content-center">
-<div id="flavors" class="jumbotron p-3 mb-2 bg-transparent text-dark .bg-transparent">
+<div id="flavors" class="container py-2 d-flex justify-content-center">
+<div class="jumbotron p-3 mb-2 bg-transparent text-dark .bg-transparent">
   <div class="container">
     <h1 class="display-4">Shaved Ice Flavors</h1>
     </div>
@@ -232,8 +233,8 @@
 
 <!--Future Events image cards-->
 <section>
-<div class="container py-2 d-flex justify-content-center">
-<div id="events" class="jumbotron p-3 mb-2 bg-transparent text-dark .bg-transparent">
+<div id="events" class="container py-2 d-flex justify-content-center">
+<div class="jumbotron p-3 mb-2 bg-transparent text-dark .bg-transparent">
   <div class="container">
     <h1 class="display-4">Future Events</h1>
     </div>
@@ -290,8 +291,8 @@
 
 <!--Location and map-->
 <section>
-<div class="container py-2 d-flex justify-content-center">
-<div id="location" class="jumbotron p-3 mb-2 bg-transparent text-dark .bg-transparent">
+<div id="location" class="container py-2 d-flex justify-content-center">
+<div class="jumbotron p-3 mb-2 bg-transparent text-dark .bg-transparent">
   <div class="container">
     <h1 class="display-4">Locations</h1>
     </div>
@@ -337,7 +338,7 @@
 
 <!--Contact Us Form-->
 <section>
-<div class="container my-2">
+<div id="contact" class="container my-2">
 <h1>Contact Us</h1>
 <form id="contact" method="post" action="/php/mailer.php">
 <div class="form-group">

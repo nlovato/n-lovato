@@ -21,7 +21,8 @@ html, body {
 	}
 }
 
-h1 {
+h2 {
+	position: center;
 	text-decoration: underline;
 }
 
@@ -44,7 +45,7 @@ h1 {
 	padding: 80px;
 }
 
-#about {
+#aboutUs {
 	margin-top: 5%;
 	padding: 80px 80px 80px 80px;
 }
