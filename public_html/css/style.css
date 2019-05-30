@@ -45,13 +45,29 @@ h1 {
 }
 
 #about {
-	margin-top: auto;
-	padding: 80px;
+	margin-top: 5%;
+	padding: 80px 80px 80px 80px;
 }
 
 #youtube {
 	position: center;
-	padding: 100px 100px 100px 100px;
+	padding: 50px 200px 50px 200px;
+}
+
+#flavors {
+	margin-top: 10%;
+	width: 50%;
+	padding: 80px;
+}
+
+#events {
+	margin: auto;
+	width: 50%;
+	padding: 80px;
+}
+
+#location {
+	margin-top: 10%;
 }
 
 #contact {
