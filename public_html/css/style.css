@@ -1,6 +1,7 @@
 /*Create gradient background*/
 html, body {
 	margin: 0;
+	overflow-x: hidden;
 }
 
 .wrapper {
@@ -8,7 +9,7 @@ html, body {
 	height: 100%;
 	background: linear-gradient(45deg, #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #FF3706);
 	background-size: 600% 100%;
-	animation: gradient 16s linear infinite;
+	animation: gradient 10s linear infinite;
 	animation-direction: alternate;
 }
 
@@ -66,12 +67,13 @@ h2 {
 	width: 50%;
 }
 
-#aboutUs {
-	margin-top: 5%;
-}
-
 #youtube {
 	position: center;
+	padding: 50px 200px 50px 200px;
+}
+
+#aboutUs {
+	margin-top: 5%;
 }
 
 #flavors {
