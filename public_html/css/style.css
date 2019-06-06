@@ -55,6 +55,7 @@ h2 {
 }
 
 #break {
+	margin: 5% auto 5% auto;
 	height: 20px;
 	position: relative;
 	width: 100%;
@@ -77,7 +78,8 @@ h2 {
 }
 
 #flavors {
-	margin-top: 5%;
+	position: center;
+	margin: auto;
 }
 
 #events {
