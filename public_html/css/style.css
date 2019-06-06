@@ -63,7 +63,7 @@ h2 {
 
 #carouselExampleFade {
 	text-align: center;
-	margin: auto;
+	margin: auto auto 5% auto;
 	width: 50%;
 }
 
